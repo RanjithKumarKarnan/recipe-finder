@@ -1,10 +1,11 @@
-
 const Home = () => {
   return (
-    <div>
+    <>
+      <div className="m-5">
         <h1 className="text-center">Recipe Finder</h1>
-    </div>
-  )
-}
+      </div>
+    </>
+  );
+};
 
-export default Home
+export default Home;
