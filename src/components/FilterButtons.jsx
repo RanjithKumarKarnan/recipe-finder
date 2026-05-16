@@ -9,7 +9,7 @@ const FilterButtons = ({ activeFilter, setActiveFilter }) => {
           onClick={() => setActiveFilter(filter)}
           className={`px-4 py-2 rounded-full border capitalize duration-300
           
-          ${activeFilter === filter ? "bg-[#2a9d8f] text-white" : "bg-white"}`}
+          ${activeFilter === filter ? "bg-[#264653] text-white" : "bg-[#e9c46a] text-[#264653]"}`}
         >
           {filter}
         </button>
